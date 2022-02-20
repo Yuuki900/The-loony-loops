@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <Windows.h>
+
+int main() {
+	int hour;
+	int minute;
+		for (hour = 0; hour < 24; hour++)
+			for (minute = 0; minute < 60; minute++)
+				printf("The Clock %d:%d \n", hour, minute);
+
+				return 0;
+}
+
