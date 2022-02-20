@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <Windows.h>
+
+int main() {
+	int setka;
+	for (setka = 1; setka < 1000; setka = setka * 5) {
+		printf("mnozonko: %d \n", setka);
+
+	}
+		
+
+	return 0;
+}
