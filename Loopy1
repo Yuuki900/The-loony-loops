@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <Windows.h>
+
+int main() {
+	
+	int starting;
+	for (starting = 0;starting < 100; starting++)
+		printf("Starting %d\n", starting, starting);
+
+	return 0;
+}
+
