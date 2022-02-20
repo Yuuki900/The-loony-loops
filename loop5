@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <Windows.h>
+
+int main() {
+	int up;
+	int down;
+	for (up = 0; up < 100; up++)
+		printf("Upper:  %d \n", up);
+	for (down = 100; down > -1; down--)
+	printf("Downer:  %d \n", down);
+
+		
+
+	return 0;
+}
