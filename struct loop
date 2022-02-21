@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <Windows.h>
+
+struct szkielet {
+	int abone;
+	int bbone;
+};
+
+struct body {
+	struct szkielet cbone;
+	int dbone;
+};
+
+int main() {
+	char item[] = { 1,2,3,4 };
+	char pudelko[4];
+	int i;
+
+	struct body body1;
+	body1.cbone.abone = 4;
+
+
+	for (i = 0; i < 4;i++) {
+		pudelko[i] = item[i];
+	}
+
+	for (i = 0;i < 4;i++) {
+		printf("pudelko na pozycji %d = %d\n", i, pudelko[i]);
+	}
+
+	return 0;
+}
