@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <Windows.h>
+
+int main() {
+	int first;
+	int second;
+	for (first = 11; first < 1111225; first = first % 1)
+		for (second = 11; second < 1255; second = second % 2)
+
+			printf("Lets just see modulo %d %d \n", first, second);
+
+	return 0;
+
+
+
+}
